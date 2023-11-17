@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    list-style-type: none;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.img{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(./images/bg-img.jpg) ;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-1{
+    width: 200px;
+    background: transparent;
+    mix-blend-mode: difference;
+    filter: brightness(5);
+}
+nav select{
+    font-size: 1em;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    background-color: rgba(136, 120, 120, 0.24) ;
+    color: white;
+    border-radius: 5px;
+}
+select option{
+    background-color: white;
+    color: black;
+}
+nav button{
+    font-size: 1em;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.862);
+    color: white;
+    border-radius: 5px;
+}
+nav button:hover{
+    background-color: rgba(185, 5, 5, 0.812);
+}
+.content{
+    color: white;
+    text-align: center;
+}
+.content h1{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.content input{
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    outline: none;
+    background-color: rgba(136, 120, 120, 0.044);
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid white;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.content button{
+    background-color: rgba(255, 0, 0, 0.862);
+    height: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 130px;
+    font-size: 1em;
+    color: white;
+    border: none;
+}
+.plan button{
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(136, 118, 18, 0.829);
+    color: #fff;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+.plan button:hover{
+    background-color: rgba(255, 217, 0, 0.589);
+}
+ol a{
+    color: #fff;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+ol li{
+    padding: 5px;
+}
